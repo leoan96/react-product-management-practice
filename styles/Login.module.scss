@@ -1,0 +1,50 @@
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  // :global {
+  //   .ant-btn {
+  //     background-color: green;
+  //     border-color: green;
+  //   }
+  // }
+}
+
+.login_title {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.login_input {
+  max-width: 350px;
+}
+
+.btn_style {
+  font-size: 15px;
+  border-radius: 20px;
+  // :global {
+  //   .ant-btn {
+  //     background-color: red;
+  //     border-color: red;
+  //   }
+  // }
+}
+
+@media (max-width: 600px) {
+  .container {
+    background-color: rebeccapurple;
+  }
+
+  .login_title {
+    margin-left: 150px;
+  }
+
+  .login_label {
+    display: block;
+    margin-left: 150px;
+  }
+
+  .login_input {
+    max-width: 350px;
+  }
+}
